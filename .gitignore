@@ -1,0 +1,19 @@
+# Fichiers sensibles
+.env
+*.env
+
+# Fichiers de test
+test-*.js
+
+# Historique des éditeurs
+.history/
+
+# Logs
+*.log
+
+# Dépendances
+node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db

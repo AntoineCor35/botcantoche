@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  cantoche-bot:
+    build: .
+    container_name: cantoche-bot
+    restart: always
+    environment:
+      - TOKEN=${TOKEN}
+      - CLIENT_ID=${CLIENT_ID}
+      - GUILD_ID=${GUILD_ID}
+      - CHANNEL_ID=${CHANNEL_ID}
